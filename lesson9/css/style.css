@@ -1,0 +1,55 @@
+   h1 {
+       color: rgb(3, 51, 162);
+       text-align: center;
+       font-size: 150px;
+       margin-top: 250px;
+   }
+
+   h2 {
+       color: rgb(25, 19, 199);
+       text-align: center;
+       font-size: 50px;
+       margin-top: 50px;
+   }
+
+   body {
+       color: rgb(12, 228, 228);
+       background-color: rgb(0, 0, 2);
+
+   }
+
+   #hero {
+
+       background-color: rgb(7, 7, 233);
+       color: rgb(206, 228, 12);
+
+
+       background-image: url("../images/22.png");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       background-size: contain;
+       background-size: auto;
+       background-size: 50% 50%;
+
+
+       background-repeat: repeat-x;
+       background-repeat: repeat-y;
+       background-repeat: no-repeat;
+       background-position: top center;
+       background-position: top right;
+       background-position: top left;
+       /*height: 200vh;*/
+
+
+
+   }
+
+   nav a {
+
+       color: antiquewhite;
+   }
+
+   a {
+       color: rgb(238, 10, 10) !important;
+   }
