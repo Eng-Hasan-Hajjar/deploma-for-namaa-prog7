@@ -1,12 +1,15 @@
 * {
 
     color: blue;
-    background-color: blueviolet;
-}
-#body_id{
+    background-color: rgb(238, 238, 238);
 
-        color: blue;
+}
+
+#body_id {
+
+    color: blue;
     background-color: rgb(226, 43, 43);
+    text-align: center;
 }
 
 #nav_id {
@@ -30,9 +33,55 @@
 
 }
 
-h1 ,h2, h3{
+h1,
+h2,
+h3 {
 
-font-size: 16px;
-font-style: italic;
-color: aliceblue !important;
+    font-size: 16px;
+    font-style: italic;
+    color: #0070d3 !important;
+
+}
+
+nav a {
+    color: rgb(2, 2, 2);
+
+}
+
+a {
+    color: black;
+}
+
+
+ul>li {
+
+    color: brown;
+}
+
+li {
+
+    color: rgb(4, 4, 4);
+
+}
+
+.leftli {
+    text-align: left !important;
+}
+
+h4+p {
+    font-size: 42px;
+    color: #D16B5A;
+}
+
+p.intro{
+
+    font-size: 60px;
+    color: chartreuse;
+}
+
+.kkk + .jjj {
+
+     color: rgb(86, 0, 68);
+     border: #D16B5A;
+     border-style: double;
 }
