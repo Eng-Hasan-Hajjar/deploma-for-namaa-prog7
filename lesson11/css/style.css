@@ -1,0 +1,22 @@
+
+input[required]{
+    border: 2px solid #1fbd6e;
+
+}
+
+input[type="email"]{
+    color: blue;
+    padding-right:  44px;
+    padding-left:  44px;
+}
+
+a[href^="https"]{
+    color: brown;
+    font-size: xx-large;
+}
+
+a[href$=".pdf"]{
+    color: rgb(156, 173, 2);
+}
+
+
