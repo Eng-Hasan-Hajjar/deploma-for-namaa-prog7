@@ -1,22 +1,59 @@
-
-input[required]{
-    border: 2px solid #1fbd6e;
-
+input[required] {
+    border: 2px dotted #1fbd6e;
 }
 
-input[type="email"]{
+input[type="email"] {
     color: blue;
-    padding-right:  44px;
-    padding-left:  44px;
+    padding-right: 44px;
+    padding-left: 44px;
 }
 
-a[href^="https"]{
+a[href^="https"] {
     color: brown;
     font-size: xx-large;
 }
 
-a[href$=".pdf"]{
+a[href$=".pdf"] {
     color: rgb(156, 173, 2);
 }
 
+a[href$=".pdf"]:hover {
+    color: rgb(1, 91, 113);
+    font-size: xx-large;
+}
 
+.download {
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: center;
+    background-color: rgb(155, 155, 255);
+}
+
+.tite:hover {
+
+    font-size: xx-large;
+    color: brown;
+}
+
+a:visited {
+    color: aqua;
+    font-size: xx-large;
+}
+
+h2 {
+    color: #1fbd6e;
+    background-color: black;
+    text-align: center;
+    font-size: 100px;
+    border-color: rgb(183, 255, 0);
+    outline-color: #bd1f34;
+    background: #bd1f34;
+    opacity: 0;
+
+}
+h2:hover {
+ 
+    opacity: 1;
+
+}
