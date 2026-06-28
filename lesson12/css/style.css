@@ -1,0 +1,30 @@
+.hh1{
+
+    margin-top: 5%;
+}
+
+
+.btn-reg{
+    color: aqua;
+    background-color: black;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px yellow  Inset;
+    text-align: center;
+    animation: fadeIn 3s;
+
+}
+.btn-reg:hover{
+    color: rgb(0, 16, 16);
+    background-color: rgb(32, 164, 36);
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(0, 34, 255)  Inset;
+    text-align: center;
+ 
+    
+}
