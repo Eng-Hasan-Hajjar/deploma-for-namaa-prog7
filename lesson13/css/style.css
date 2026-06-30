@@ -1,0 +1,49 @@
+.para{
+
+    text-align: center;
+ font-size: 32px;
+ font-weight: 300;
+ font-style: oblique;
+}
+
+.second{
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:overline;
+    text-transform: capitalize;
+    letter-spacing: 30px;
+    word-spacing: 0px; 
+    text-shadow: -40px -20px 4px #e603e6;
+    text-indent: 20px;
+    line-height: 1.5;
+    overflow: hidden;
+}
+h1{
+
+    text-decoration: aqua;
+}
+
+body {
+    background: linear-gradient(45deg,
+            #049fff,
+            #012847,
+            #ff2a2a);
+    background-size: 300% 300%;
+    animation: bgMove 5s infinite;
+}
+
+@keyframes bgMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
