@@ -1,0 +1,31 @@
+.horizenter{
+
+display: inline-block;
+}
+
+
+.container{
+
+    height: 200px;
+  width: 200px;
+    overflow: auto;
+    overflow: scroll;
+    overflow: visible;
+    overflow-x: auto;
+    overflow-y: auto;
+
+   overflow: hidden;
+   overflow-x: auto;
+}
+
+.hh1{
+  
+    background-color: rgb(2, 235, 181);
+    color: blue;
+    margin: 30px;
+    justify-content: center;
+    text-justify: auto;
+    direction: rtl;
+    padding: 20px;
+
+}

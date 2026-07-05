@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileLaunch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <nav class="navbar">
+        <div class="logo">
+            FileLaunch
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="#pricing">الأسعار</a></li>
+            <li><a href="login.html">تسجيل الدخول</a></li>
+        </ul>
+        <a href="create.html" class="create-btn">
+            إنشاء صفحة
+        </a>
+    </nav>
+    <section class="hero">
+        <h1>
+            أنشئ صفحة تحميل احترافية خلال ثوانٍ
+        </h1>
+        <p>
+            اصنع صفحة تحميل جميلة لبرامجك وملفاتك بدون أي خبرة برمجية.
+        </p>
+        <a href="create.html" class="hero-btn">
+            ابدأ الآن مجاناً
+        </a>
+    </section>
+    <section class="features">
+        <div class="card">
+            <h3>⚡ سريع</h3>
+            <p>إنشاء صفحات خلال ثوانٍ.</p>
+        </div>
+        <div class="card">
+            <h3>📦 تحميل مباشر</h3>
+            <p>أضف أي رابط تحميل بسهولة.</p>
+        </div>
+        <div class="card">
+            <h3>📊 إحصائيات</h3>
+            <p>تابع عدد الزيارات والتحميلات.</p>
+        </div>
+    </section>
+    
+    <section id="pricing" class="features">
+        <div class="card">
+            <h3>الخطة المجانية</h3>
+            <p>3 صفحات تحميل مجانية</p>
+        </div>
+        <div class="card">
+            <h3>الخطة الاحترافية</h3>
+            <p>صفحات غير محدودة + إحصائيات</p>
+        </div>
+    </section>
+    <footer>
+        <p>Alshayeb - جميع الحقوق محفوظة</p>
+    </footer>
+    <script src="js/main.js"></script>
+    
+<script>
+ if (pages.length === 0) {
+    container.innerHTML =
+    "<p>لا توجد صفحات حتى الآن.</p>";
+} else {
+    pages.forEach(page => {
+        container.innerHTML += `
+        <div class="card">
+            <h3>${page.title}</h3>
+            <p>${page.description}</p>
+            <p>ID: ${page.id}</p>
+            <p>👁️ الزيارات: ${page.views || 0}</p>
+            <p>⬇️ التحميلات: ${page.downloads || 0}</p>
+            <button onclick="viewPage('${page.id}')">
+                عرض الصفحة
+            </button>
+            <button onclick="deletePage('${page.id}')">
+                حذف الصفحة
+            </button>
+        </div>
+        `;
+    });
+}
+
+</script>
+</body>
+</html>
