@@ -1,25 +1,61 @@
-.horizenter{
+nav {
 
-display: inline-block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    z-index: 1000;
+    background-color: rgb(133, 225, 3);
+
+}
+
+.shifted {
+    position: relative;
+    top: 10px;
+    right: 30px;
+    left: 10px;
+    bottom: 30px;
+
+}
+
+.card {
+    background-color: brown;
+    width: 60px;
+    margin: 30px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.horizenter {
+
+    display: inline-block;
+
 }
 
 
-.container{
+.container {
 
-    height: 200px;
-  width: 200px;
+    /* height: 200px;*/
+
     overflow: auto;
     overflow: scroll;
     overflow: visible;
     overflow-x: auto;
     overflow-y: auto;
 
-   overflow: hidden;
-   overflow-x: auto;
+    overflow: inherit;
+    z-index: 20;
+
 }
 
-.hh1{
-  
+
+
+
+
+.hh1 {
+
     background-color: rgb(2, 235, 181);
     color: blue;
     margin: 30px;
@@ -28,4 +64,23 @@ display: inline-block;
     direction: rtl;
     padding: 20px;
 
+}
+
+
+.truncated-text {
+
+    /*  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+    max-width: 100%;
+}
+
+
+/*POSITIONS*/
+.KKK1 {
+    position: absolute;
+    position: fixed;
+    position: relative;
+    position: sticky;
+    position: static;
 }
