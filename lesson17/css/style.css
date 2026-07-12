@@ -58,7 +58,7 @@ nav {
     justify-content: space-around;
     justify-content: space-between;
 */
-
+    /*
     display: flex;
     height: 500px;
     align-items: stretch;
@@ -88,10 +88,20 @@ nav {
     align-content: space-between;
     align-content: space-around;
     align-content: stretch;
-
+*/
 
     display: flex;
+    align-self: center;
+    height: 200px;
 
+}
+
+.item-special .item-important {
+    flex-shrink: 0;
+}
+
+.item-flexible {
+    flex-shrink: 2;
 }
 
 .item-a {
@@ -112,9 +122,39 @@ nav {
     border: 3px;
     border-color: black;
     border-style: dashed;
+
+    /*  flex-basis: auto;
+    flex-basis: 30px;
+    flex-basis: 20%;
+    flex-basis: 0;
+    */
+
+    /* flex: graw shrink basis  */
+
+    flex: 1;
+    /* = flex: 1 1 0%*/
+    flex: 2;
+    /* = flex: 2 1 0%*/
+    flex: auto;
+    /* = flex: 1 1 auto*/
+    flex: none;
+    /* = flex: 0 0 auto*/
+    flex: 1;
+    /* = flex: 1 1 0%*/
+
 }
 
+.nav-item {
+    flex: 1;
+}
 
+.main {
+    flex: 1;
+}
+
+.sidebar {
+    flex: 0 0 280px;
+}
 
 .hh1 {
 
