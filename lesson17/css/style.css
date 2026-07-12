@@ -1,0 +1,166 @@
+nav {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    z-index: 1000;
+    background-color: rgb(133, 225, 3);
+
+}
+
+.shifted {
+    position: relative;
+    top: 10px;
+    right: 30px;
+    left: 10px;
+    bottom: 30px;
+
+}
+
+
+
+
+.card {
+    background-color: brown;
+    width: 60px;
+    margin: 30px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.horizenter {
+
+    display: inline-block;
+
+}
+
+
+.container16 {
+    margin-top: 20px;
+    border-style: double;
+    /*
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+*/
+    /*
+    display: flex;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+   
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;
+*/
+
+    display: flex;
+    height: 500px;
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+
+
+    display: flex;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+
+    gap: 60px;
+
+    gap: 20px 10px;
+
+    row-gap: 20px;
+    column-gap: 10px;
+
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: stretch;
+
+
+    display: flex;
+
+}
+
+.item-a {
+    flex-grow: 1;
+}
+
+.item-b {
+    flex-grow: 3;
+}
+
+.item-c {
+    flex-grow: 2;
+}
+
+.item {
+    margin: 20px;
+    padding: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: dashed;
+}
+
+
+
+.hh1 {
+
+    background-color: rgb(2, 235, 181);
+    color: blue;
+    margin: 30px;
+    justify-content: center;
+    text-justify: auto;
+    direction: rtl;
+    padding: 20px;
+
+}
+
+
+.truncated-text {
+
+    /*  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+    max-width: 100%;
+}
+
+
+/*POSITIONS*/
+.KKK1 {
+    position: absolute;
+    position: fixed;
+    position: relative;
+    position: sticky;
+    position: static;
+}
+
+
+.old-center {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* flexbox  */
