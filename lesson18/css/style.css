@@ -1,0 +1,152 @@
+nav {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    z-index: 1000;
+    background-color: rgb(133, 225, 3);
+
+}
+
+.shifted {
+    position: relative;
+    top: 10px;
+    right: 30px;
+    left: 10px;
+    bottom: 30px;
+
+}
+
+
+
+
+.card {
+    background-color: brown;
+    width: 60px;
+    margin: 30px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.horizenter {
+
+    display: inline-block;
+
+}
+
+
+.container16 {
+    margin-top: 20px;
+    border-style: double;
+
+
+    display: grid;
+    /*grid-template-columns: 25% 25% 25%  25%;*/
+    /*
+    grid-template-rows: 25% 25% 25%  25%;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 3fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    */
+
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 150px);
+
+    gap: 16px;
+
+}
+
+
+.item-a {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.item-b {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.item-c {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.item-header{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.item {
+    margin: 20px;
+    padding: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: dashed;
+
+
+}
+
+.nav-item {
+    flex: 1;
+}
+
+.main {
+    flex: 1;
+}
+
+.sidebar {
+    flex: 0 0 280px;
+}
+
+.hh1 {
+
+    background-color: rgb(2, 235, 181);
+    color: blue;
+    margin: 30px;
+    justify-content: center;
+    text-justify: auto;
+    direction: rtl;
+    padding: 20px;
+
+}
+
+
+.truncated-text {
+
+    /*  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+    max-width: 100%;
+}
+
+
+/*POSITIONS*/
+.KKK1 {
+    position: absolute;
+    position: fixed;
+    position: relative;
+    position: sticky;
+    position: static;
+}
+
+
+.old-center {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* flexbox  */
