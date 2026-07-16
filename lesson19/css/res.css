@@ -1,3 +1,12 @@
+:root{
+    --color-primary:#eeadaa;
+    --color-secodary:#d4ff00;
+
+}
+
+body{
+    color: var(--color-secodary);
+}
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -14,3 +23,37 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .container {
+        font-size: xx-large;
+        font-style: italic;
+
+    }
+
+}
+
+
+@media (orientation: portrait) or (max-width:480px) {
+
+    .container {
+        font-size: xx-large;
+        font-style: italic;
+
+    }
+
+}
+
+
+@media not screen {
+
+    .container {
+        font-size: xx-large;
+        font-style: italic;
+
+    }
+
+}
+
+
